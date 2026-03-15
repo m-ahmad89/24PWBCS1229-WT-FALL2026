@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="description" content="Lab 02 Portfolio Website">
-<meta name="keywords" content="HTML, GitHub Pages, UET, Web Technologies">
-<meta name="author" content="Muhammad Ahmad">
     <meta charset="UTF-8">
+    <meta name="description" content="Lab 02 Portfolio Website">
+    <meta name="keywords" content="HTML, GitHub Pages, UET, Web Technologies">
+    <meta name="author" content="Muhammad Ahmad">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
+    <link rel="stylesheet" href="./styles/profile.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header>
-    <h1>Your Full Name</h1>
+    <h1>Muhammad Ahmad</h1>
 </header>
 
-<img src="images/profile.jpeg" alt="Profile Picture" width="200" loading="lazy">
+<section class="profile">
+    <img src="images/Ahmad.JPG" alt="Profile Picture" class="profile-pic" loading="lazy">
 
-<p>
-    I am a student of Computer Science at UET Peshawar.
-    I am learning Web Technologies (CS 224L).
-    I am interested in web development and software engineering.
-</p>
+    <p class="bio">
+        I am a student of Computer Science at UET Peshawar.<br>
+        I am learning Web Technologies (CS 224L).<br>
+        I am interested in web development and software engineering.
+    </p>
 
-<h3>Contact Information</h3>
-<p>Email: muhammadahmad452005@email.com</p>
-<p>Phone: +92-333-9419135</p>
+    <h3>Contact Information</h3>
+    <p>Email: <a href="mailto:muhammadahmad452005@email.com">muhammadahmad452005@email.com</a></p>
+    <p>Phone: <a href="tel:+9233236252506">+92-332-6252506</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Muhammad Ahmad. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
